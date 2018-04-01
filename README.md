@@ -85,3 +85,27 @@ Quick reference for Git Commands
    - `git stash drop`
 - Clear stashes
    - `git stash clear`
+
+### Collaborate
+- Show remote repositories
+   - `git remote -v`
+- Add remote repositories
+   - `git remote add <remote-name> <url>`
+- Push branch to remote
+   - `git push <remote-name> <branch-name>`
+- Delete remote branch
+   - `git push --delete <remote-branch> <branch-name>`
+- Push and create new remote branch at the same time
+   - `git push -u origin master`
+   - `git push origin master` <Normal push>
+   - `git push origin master --force` <Force push>
+- Push tags/tag
+   - `git push <remote-name> <tag_name>`
+   - `git push --tags <remote-name>`
+- Delete remote tag
+   - `git push --delete <remote-name> <tag-name>`
+- Fetch from remote (Update remote-tracking branches)
+   - `git fetch <remote-name>`
+- Pull from remote (Retrieve objects from remote)
+   -  `git pull <remote-name> <branch-name>`
+   
