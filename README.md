@@ -65,3 +65,23 @@ Quick reference for Git Commands
    - `git rebase -i <other-branch>`
 - Merge using merge commit
    - `git merge --no--ff <other-branch>`
+
+### Tags
+- List tags
+   - `git tag`
+- Add tag
+   - `git tag <tag_name>`
+- Delete tag
+   - `git tag -d <tag_name>`
+
+### Stash
+- Save working directory state to new stash
+   - `git stash save "stash_message"`
+- List stashes
+   - `git stash list`
+- Restore last stash and apply to working directory
+   - `git stash pop`
+- Remove last stash
+   - `git stash drop`
+- Clear stashes
+   - 'git stash clear'
