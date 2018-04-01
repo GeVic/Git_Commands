@@ -84,4 +84,4 @@ Quick reference for Git Commands
 - Remove last stash
    - `git stash drop`
 - Clear stashes
-   - 'git stash clear'
+   - `git stash clear`
