@@ -109,3 +109,10 @@ Quick reference for Git Commands
 - Pull from remote (Retrieve objects from remote)
    -  `git pull <remote-name> <branch-name>`
    
+### Good Practices
+- Optimize repository
+   - `git gc`
+- Auto optimize
+   - `git gc --auto`
+- Check repository
+   - `git fsck` (Checks integrity of objects in the repository)
